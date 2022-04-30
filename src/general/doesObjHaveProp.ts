@@ -1,5 +1,5 @@
-export type Primitive = string | number;
-export type AnyObject = Record<Primitive, unknown>;
+type Primitive = string | number;
+type AnyObject = Record<Primitive, unknown>;
 
 export default function doesObjectHaveProperty(
   obj: AnyObject,
