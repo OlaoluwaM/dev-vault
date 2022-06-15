@@ -4,4 +4,4 @@ export interface AnyObject {
   [key: Exclude<Primitive, boolean>]: unknown;
 }
 
-export type AnyFunction = (...args: any[]) => any;
+export type AnyFunction<RT = unknown> = (...args: any[]) => RT;
