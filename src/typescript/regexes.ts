@@ -1,0 +1,1 @@
+const NON_ALPHA_NUMERIC_REGEX = /[_\W]/g
