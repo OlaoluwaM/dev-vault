@@ -9,6 +9,7 @@ type RawTypes =
   | 'string'
   | 'number'
   | 'boolean'
+  | 'date'
   | 'symbol';
 
 export function rawTypeOf(value: unknown): RawTypes {
